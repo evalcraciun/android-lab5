@@ -7,7 +7,8 @@
             android:key="edit_text_preference_1"
             android:selectAllOnFocus="true"
             android:singleLine="true"
-            android:title="Craciun Stefan Ciprian"
+            android:title="User:"
+            android:summary="Craciun Stefan"
             android:id="@+id/getName"/>
     </PreferenceCategory>
     <EditTextPreference
@@ -15,11 +16,12 @@
         android:key="edit_text_preference_2"
         android:selectAllOnFocus="true"
         android:singleLine="true"
-        android:title="demo@gmail.com"
+        android:title="Email:"
+        android:summary="demo@gmail.com"
         android:id="@+id/getEmail"/>
 
     <SwitchPreference
         android:key="test"
-        android:title="Save to Rom DD ?"
+        android:title="Test Switch"
         android:defaultValue="false" />
 </PreferenceScreen>
